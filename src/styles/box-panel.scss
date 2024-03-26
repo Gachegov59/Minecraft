@@ -1,0 +1,9 @@
+.box-panel {
+    &__item {
+        width: 100px;
+        height: 100px;
+        background: #fff;
+        border: 1px solid #000;
+        margin: 10px;
+    }
+}

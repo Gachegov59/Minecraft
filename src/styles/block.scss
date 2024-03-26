@@ -1,0 +1,33 @@
+.block {
+    width: 50px;
+    height: 50px;
+    background: var(--white);
+
+    &._sky {
+        background: var(--background-base);
+    }
+
+    &._earth {
+        background: url('../../src/assets/earth.png');
+    }
+
+    &._tree {
+        background: url('../../src/assets/tree.png');
+    }
+
+    &._leaf {
+        background: url('../../src/assets/leaf.png');
+    }
+
+    &._stone {
+        background: url('../../src/assets/rock.png');
+    }
+
+    &._tnt {
+        background: url('../../src/assets/tnt.png');
+    }
+    &._png {
+        background-size: contain;
+    }
+    
+}

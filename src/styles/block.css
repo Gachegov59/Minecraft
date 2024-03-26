@@ -1,0 +1,26 @@
+.block {
+  width: 50px;
+  height: 50px;
+  background: var(--white);
+}
+.block._sky {
+  background: var(--background-base);
+}
+.block._earth {
+  background: url("../../src/assets/earth.png");
+}
+.block._tree {
+  background: url("../../src/assets/tree.png");
+}
+.block._leaf {
+  background: url("../../src/assets/leaf.png");
+}
+.block._stone {
+  background: url("../../src/assets/rock.png");
+}
+.block._tnt {
+  background: url("../../src/assets/tnt.png");
+}
+.block._png {
+  background-size: contain;
+}/*# sourceMappingURL=block.css.map */
